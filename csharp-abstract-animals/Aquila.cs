@@ -10,7 +10,7 @@ namespace csharp_abstract_animals
     {
         public override void GetName()
         {
-            Console.WriteLine("L'aquila Francotto ");
+            Console.WriteLine("L'aquila Franco ");
         }
         public override void Verso()
         {

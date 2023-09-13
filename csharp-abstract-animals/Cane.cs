@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Cane : Animale
+    public class Cane : Animale , INuotante , ICamminante 
     {
         public override void GetName()
         {
@@ -19,6 +19,14 @@ namespace csharp_abstract_animals
         public override void CosaMangi()
         {
             Console.WriteLine("Mangio croccantini");
+        }
+        public void Nuota()
+        {
+            Console.WriteLine("Sto nuotando a cagnolino ");
+        }
+        public void Cammino()
+        {
+            Console.WriteLine("Passeggio");
         }
     }
 }

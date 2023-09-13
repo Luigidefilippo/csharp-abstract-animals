@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, AnimalWord!");
+            Console.WriteLine("Hello, AnimalWord! Presentatevi");
             Delfino delfino = new Delfino();
             Cane cane = new Cane(); 
             Aquila aquila = new Aquila();
@@ -19,17 +19,22 @@
             foreach (Animale animale in animali)
             {
                 animale.GetName();
-                Console.WriteLine();
+                Console.WriteLine("------------------------------------------------");
                 animale.CosaMangi();
-                Console.WriteLine();
+                Console.WriteLine("------------------------------------------------");
                 animale.Verso();
-                Console.WriteLine();
+                Console.WriteLine("------------------------------------------------");
                 animale.Dormi();
-                Console.WriteLine() ;
+                Console.WriteLine("------------------------------------------------") ;
             }
+            Console.WriteLine("Cosa sappiamo fare ");
+            Console.WriteLine();
             aquila.Vola();
+            Console.WriteLine();
             delfino.Nuota();
+            Console.WriteLine();
             passerotto.Vola();
+            Console.WriteLine();
             cane.Cammino();
             cane.Nuota();
 
